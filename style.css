@@ -1,0 +1,13 @@
+.programing{
+    margin: 5px;
+    padding: 20px;
+    width: 500px;
+}
+
+.presentation{
+border: 1px solid black;
+padding: 20px;
+margin: 5px;
+border-radius: 35% 15% 35% 15%;
+max-width: 500px;
+}
