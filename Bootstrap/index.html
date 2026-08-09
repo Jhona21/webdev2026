@@ -19,21 +19,23 @@
     </div> -->
 
     <div class="container">
+        <h1>Form</h1>
+        <form action="">
             <div class="form-row">
-                <div class="form-group col-md-6 ">
-                <label for="username">Username</label>
-                <input type="text" placeholder="username">
+                <div class="form-group col-md-3">
+                <label for="email">Email</label>
+                <input type="email"  id="email" placeholder="email">
             </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-3">
                 <label for="password">password</label>
                 <input type="text" placeholder="passsword">
                 </div>
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-3">
                 <label for="address">address</label>
                 <input type="text" placeholder="address">
                 </div>
-                 <div class="form-group">
+                 <div class="form-group col-md-6">
                 <label for="area">area</label>
                 <select class="form-control"  name="area" id="state">
                     <option value="test1">test1</option>
@@ -45,10 +47,11 @@
                 </div>
 
                  <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" placeholder="username">
+                <label for="username">City</label>
+                <input type="text" placeholder="City">
                 </div>
-            
+                <button class="btn btn-success submit">Submit</button>
+            </form>
     </div>
 </body>
 </html>
